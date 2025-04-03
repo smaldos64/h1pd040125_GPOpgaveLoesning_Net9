@@ -120,7 +120,7 @@ namespace XUnitTestGPOpgaver_Net9
             Assert.False(Opgaver.ValidatePassword("MYPASSWORD11")); //No lowercase
             Assert.False(Opgaver.ValidatePassword("iLoveYou")); //No numbers
             Assert.True(Opgaver.ValidatePassword("Pè7$areLove"));
-            Assert.True(Opgaver.ValidatePassword("Pè7$areLove1"));
+            Assert.True(Opgaver.ValidatePassword("Pè7$areLove2"));
             //Assert.True(Opgaver.ValidatePassword("Repeeea7!"));
             Assert.False(Opgaver.ValidatePassword("Repeeea7!"));
             // VALID PASSWORDS
