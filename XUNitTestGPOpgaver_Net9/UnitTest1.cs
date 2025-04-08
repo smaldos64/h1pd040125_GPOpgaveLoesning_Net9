@@ -123,6 +123,7 @@ namespace XUnitTestGPOpgaver_Net9
             Assert.True(Opgaver.ValidatePassword("Pè7$areLove6"));
             //Assert.True(Opgaver.ValidatePassword("Repeeea7!"));
             Assert.False(Opgaver.ValidatePassword("Repeeea7!"));
+            Assert.False(Opgaver.ValidatePassword("Repeeea8!"));
             // VALID PASSWORDS
             //Assert.True(Opgaver.ValidatePassword("H4(k+x0"));
             Assert.True(Opgaver.ValidatePassword("H4(k+x0)"));
